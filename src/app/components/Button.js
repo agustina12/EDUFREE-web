@@ -2,7 +2,7 @@ export default function Button({ className, children, variant }) {
   const addClassName = className ? `${className}` : "";
   const variants = {
     "outline-white": `border border-white text-white`,
-    "btn-yellow": `bg-yellow-500 text-indigo-950`,
+    "btn-yellow": `bg-amber-200 text-indigo-950`,
   };
 
   const pickedVariant = variants[variant];
@@ -11,7 +11,8 @@ export default function Button({ className, children, variant }) {
     <div className="">
       <a
         href="#"
-        className={`rounded py-2 px-5 text-base font-normal ${pickedVariant}${addClassName}`}>
+        className={`rounded py-2 px-5 text-base font-normal w-auto ${pickedVariant}${addClassName}`}
+      >
         {children}
       </a>
     </div>
