@@ -1,17 +1,19 @@
+import SectionParagraph from "./SectionParagraph";
+import SectionTitle from "./Sectiontitle";
 export default function SectionBrand() {
   return (
     <div className="flex justify-between items-end">
       <div className="">
-        <h4 className="text-3xl font-semibold text-gray-900">21.000+</h4>
-        <p className="text-base text-gray-500 font-normal">Siswa terdaftar</p>
+        <SectionTitle>21.000+</SectionTitle>
+        <SectionParagraph>Siswa terdaftar</SectionParagraph>
       </div>
       <div className="">
-        <h4 className="text-3xl font-semibold text-gray-900">100+</h4>
-        <p className="text-base text-gray-500 font-normal">Instruktur Ahli</p>
+        <SectionTitle>100+</SectionTitle>
+        <SectionParagraph>Instruktur Ahli</SectionParagraph>
       </div>
       <div className="">
-        <h4 className="text-3xl font-semibold text-gray-900">150+</h4>
-        <p className="text-base text-gray-500 font-normal">Kursus Gratis</p>
+        <SectionTitle>150+</SectionTitle>
+        <SectionParagraph>Kursus Gratis</SectionParagraph>
       </div>
       <div className="flex items-center gap-2">
         <img src="./lorem.svg" className="w-5 " />
