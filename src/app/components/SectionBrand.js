@@ -1,49 +1,39 @@
 import SectionParagraph from "./SectionParagraph";
-import SectionTitle from "./Sectiontitle";
+import SectionTitle from "./SectionTitle";
 export default function SectionBrand() {
   return (
     <div className="flex justify-between items-end">
       <div className="">
-        <SectionTitle>21.000+</SectionTitle>
-        <SectionParagraph>Siswa terdaftar</SectionParagraph>
+        <SectionTitle variant="text-2xl">21.000+</SectionTitle>
+        <SectionParagraph variant="text-base">Siswa terdaftar</SectionParagraph>
       </div>
       <div className="">
-        <SectionTitle>100+</SectionTitle>
-        <SectionParagraph>Instruktur Ahli</SectionParagraph>
+        <SectionTitle variant="text-2xl">100+</SectionTitle>
+        <SectionParagraph variant="text-base">Instruktur Ahli</SectionParagraph>
       </div>
       <div className="">
-        <SectionTitle>150+</SectionTitle>
-        <SectionParagraph>Kursus Gratis</SectionParagraph>
+        <SectionTitle variant="text-2xl">150+</SectionTitle>
+        <SectionParagraph variant="text-base">Kursus Gratis</SectionParagraph>
       </div>
       <div className="flex items-center gap-2">
         <img src="./lorem.svg" className="w-5 " />
-        <a href="#" className="text-gray-900 text-2xl font-semibold uppercase">
-          lorem
-        </a>
+        <SectionTitle variant="text-2xl">lorem</SectionTitle>
       </div>
       <div className="flex items-center gap-2">
         <img src="./ditlance.svg" className="w-5 " />
-        <a href="#" className="text-gray-900 text-2xl font-semibold uppercase">
-          ditlance
-        </a>
+        <SectionTitle variant="text-2xl">ditlance</SectionTitle>
       </div>
       <div className="flex items-center gap-2">
         <img src="./owthest.svg" className="w-5 " />
-        <a href="#" className="text-gray-900 text-2xl font-semibold uppercase">
-          owthest
-        </a>
+        <SectionTitle variant="text-2xl">owthest</SectionTitle>
       </div>
       <div className="flex items-center gap-2">
         <img src="./neovasi.svg" className="w-5" />
-        <a href="#" className="text-gray-900 text-2xl font-semibold uppercase">
-          neovasi
-        </a>
+        <SectionTitle variant="text-2xl">neovasi</SectionTitle>
       </div>
       <div className="flex items-center gap-2">
         <img src="./onago.svg" className="w-5" />
-        <a href="#" className="text-gray-900 text-2xl font-semibold uppercase">
-          onago
-        </a>
+        <SectionTitle variant="text-2xl">onago</SectionTitle>
       </div>
     </div>
   );
