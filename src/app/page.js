@@ -4,6 +4,7 @@ import SectionBrand from "./components/SectionBrand";
 import SectionJoin from "./components/SectionJoin";
 import SectionAbout from "./components/SectionAbout";
 import SectionRecommend from "./components/SectionRecommend";
+import SectionTestimonial from "./components/SectionTestimonial";
 import "../app/globals.css";
 
 export default function Home() {
@@ -29,6 +30,9 @@ export default function Home() {
         </div>
         <div className="mx-16 my-24">
           <SectionRecommend />
+        </div>
+        <div className="mx-16 my-24">
+          <SectionTestimonial />
         </div>
       </div>
     </>

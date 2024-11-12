@@ -17,12 +17,12 @@ export default function Hero() {
             <a href="#" className="text-white text-base">
               Lihat Alur belajar
             </a>
-            <img src="./arrow.svg" className="w-5 text-white" />
+            <img src="./icons/arrow.svg" className="w-5 text-white" />
           </div>
         </div>
       </div>
       <div className="w-3/6 flex justify-center mb-20">
-        <img src="./hero.png" />
+        <img src="./img/hero.png" />
       </div>
     </div>
   );

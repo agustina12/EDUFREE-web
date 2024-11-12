@@ -14,7 +14,7 @@ export default function SectionAbout() {
         </SectionParagraph>
       </div>
       <div className="w-6/12 flex justify-end">
-        <img src="./about.png" className="w-auto h-auto" />
+        <img src="./img/about.png" className="w-auto h-auto" />
       </div>
     </div>
   );
