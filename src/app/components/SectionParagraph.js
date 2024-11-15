@@ -3,6 +3,7 @@ export default function SectionParagraph({ className, children, variant }) {
   const variants = {
     "text-base": "text-base text-gray-400 mt-3 leading-relaxed",
     "text-lg": "text-lg tracking-wide text-gray-500",
+    "text-2xl": "text-2xl tracking-wide text-indigo-950 leading-relaxed",
   };
   const pickedVariant = variants[variant];
 

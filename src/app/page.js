@@ -31,8 +31,10 @@ export default function Home() {
         <div className="mx-16 my-24">
           <SectionRecommend />
         </div>
-        <div className="mx-16 my-24">
-          <SectionTestimonial />
+        <div className="bg-slate-100">
+          <div className="mx-16 my-24">
+            <SectionTestimonial />
+          </div>
         </div>
       </div>
     </>
