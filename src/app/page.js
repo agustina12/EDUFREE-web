@@ -6,6 +6,7 @@ import SectionAbout from "./components/SectionAbout";
 import SectionRecommend from "./components/SectionRecommend";
 import SectionTestimonial from "./components/SectionTestimonial";
 import SectionFaq from "./components/SectionFaq";
+import SectionContactUs from "./components/SectionContactUs";
 import "../app/globals.css";
 
 export default function Home() {
@@ -39,6 +40,9 @@ export default function Home() {
         </div>
         <div className="mx-16 my-24">
           <SectionFaq />
+        </div>
+        <div className="mx-16 my-24">
+          <SectionContactUs />
         </div>
       </div>
     </>
