@@ -16,6 +16,9 @@ module.exports = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      backgroundImage: {
+        "img-contact": "url('/img/bg-contact-us.png')",
+      },
     },
   },
   plugins: [],

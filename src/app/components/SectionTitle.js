@@ -8,6 +8,7 @@ export default function SectionTitle({ className, children, variant }) {
     "text-4xl":
       "text-4xl tracking-wide font-semibold leading-normal text-gray-900",
     "text-5xl": "text-5xl leading-normal font-semibold text-gray-900",
+    "text-5xll": "text-5xl leading-normal font-semibold text-white",
   };
 
   const pickedVariant = variants[variant];
