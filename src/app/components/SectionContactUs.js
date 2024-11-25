@@ -20,7 +20,7 @@ export default function SectionContactUs() {
         </div>
       </div>
       <div className="w-1/2 bg-blue-950 h-auto">
-        <form className="py-5 px-8">
+        <form className="flex flex-col py-8 px-16">
           <div className="my-5">
             <SectionTitle variant="text-2xxll">Daftarkan Dirimu!</SectionTitle>
           </div>
@@ -48,8 +48,12 @@ export default function SectionContactUs() {
               type="password"
             />
           </div>
-          <div className="mt-2 font-bold w-full uppercase">
+          <div className="mt-8 text-center">
             <Button variant="btn-yellow-bold">daftar</Button>
+            <input
+              className="w-full px-3 py-3 border-2 rounded-md border-none
+              bg-amber-200 text-indigo-950 hover:bg-amber-300 font-bold uppercase"
+              type="button"></input>
           </div>
         </form>
       </div>

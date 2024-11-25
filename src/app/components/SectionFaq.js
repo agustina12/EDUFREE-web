@@ -35,7 +35,7 @@ export default function SectionFaq() {
   ];
 
   return (
-    <div className="flex">
+    <div className="flex gap-36">
       <div className="w-2/5">
         <SectionTitle variant="text-3xl">
           Frequently Asked Questions
@@ -50,8 +50,9 @@ export default function SectionFaq() {
             <div key={index} className="border-b border-gray-200">
               <button
                 className="flex justify-between items-center w-full p-4 text-left focus:outline-none"
-                onClick={() => setOpenIndex(openIndex === index ? null : index)}
-              >
+                onClick={() =>
+                  setOpenIndex(openIndex === index ? null : index)
+                }>
                 <div className="flex gap-14">
                   <SectionTitle variant="text-2xxl">{item.index}</SectionTitle>
                   <div className="flex-col">
