@@ -2,6 +2,7 @@ export default function SectionParagraph({ className, children, variant }) {
   const addClassName = className ? `${className}` : "";
   const variants = {
     "text-xs": "text-xs text-indigo-950 font-normal",
+    "text-basee": "text-base text-indigo-950 font-normal",
     "text-base": "text-base text-gray-400 mt-3 leading-relaxed font-normal",
     "var-text-base": "text-base text-white font-light",
     "text-lg": "text-lg tracking-wide text-gray-500 font-normal",
