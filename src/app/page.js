@@ -10,6 +10,7 @@ import SectionContactUs from "./components/SectionContactUs";
 import "../app/globals.css";
 import SectionBlog from "./components/SectionBlog";
 import SectionFooter from "./components/SectionFooter";
+import SectionCopyright from "./components/SectionCopyright";
 
 export default function Home() {
   return (
@@ -49,8 +50,13 @@ export default function Home() {
         <div className="mx-16 my-24">
           <SectionBlog />
         </div>
-        <div className="mx-16 my-24">
-          <SectionFooter />
+        <div className=" bg-indigo-950">
+          <div className="mx-16 my-24">
+            <SectionFooter />
+          </div>
+        </div>
+        <div className="mx-16 my-16">
+          <SectionCopyright />
         </div>
       </div>
     </>
