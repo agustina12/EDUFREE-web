@@ -1,3 +1,5 @@
+const plugin = require('tailwindcss');
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   //compiler lebih cepat pakai mode jit
@@ -21,5 +23,11 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    plugin(function({addUtilities}){
+      const utilities ={
+        
+      }
+    })
+  ],
 };

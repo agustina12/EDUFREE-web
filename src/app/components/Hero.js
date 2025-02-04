@@ -1,12 +1,12 @@
 import Button from "./Button";
 export default function Hero() {
   return (
-    <div className="flex ">
+    <div className="flex bg-hero 2xl:h-[712px] xl:h-[600px] md:h-[350px] md:px-0">
       <div className="w-3/6 ">
-        <h1 className="text-white text-5xl font-semibold leading-normal">
+        <h1 className="text-white text-5xl font-semibold leading-normal 2xl:w-8/12 md:text-3xl">
           Bangun dan Wujudkan Cita Bersama EDUFREE
         </h1>
-        <p className="text-white font-normal text-base my-10 tracking-wide w-9/12">
+        <p className="text-white font-normal text-base my-10 tracking-wide w-9/12 md:text-sm md:w-10/12 md:my-5">
           EDUFREE adalah sebuah layanan kursus dan pelatihan gratis secara
           online yang bertujuan untuk membantu kamu meraih cita di bidang
           teknologi.

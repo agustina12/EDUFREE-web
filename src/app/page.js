@@ -18,7 +18,7 @@ export default function Home() {
       <div className="w-screen ">
         <div className=" bg-indigo-950">
           <Navbar />
-          <div className="mx-16 pt-20">
+          <div className="mx-16 pt-20 md:mx-4">
             <Hero />
           </div>
         </div>

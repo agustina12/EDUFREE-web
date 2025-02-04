@@ -9,7 +9,7 @@ export default function SectionFooter() {
         <SectionParagraph variant="var-text-base">
           Bangun dan wujudkan cita bersama edufree
         </SectionParagraph>
-        <div className="bg-amber-200 w-3/5 rounded-t-lg mt-8 relative top-14">
+        <div className="bg-amber-200 w-3/4 rounded-t-lg mt-8 relative top-14">
           <div className="flex flex-row justify-around">
             <div className="flex flex-col py-4">
               <SectionParagraph variant="footer-font">Email</SectionParagraph>
